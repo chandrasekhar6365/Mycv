@@ -1,0 +1,222 @@
+/* -------------------------------------------*/
+/* BASIC SETUP */
+/* -------------------------------------------*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-weight: 300;
+    font-family: 'lato', 'arial' ,sans-serif;
+    font-size: 20px;
+    background: rgba(26, 28, 82, 0.81);
+}
+
+/* -------------------------------------------*/
+/* HEADER */
+/* -------------------------------------------*/
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.my_image {
+    width: 200px;
+    position: absolute;
+    top: 48%;
+    left: 85%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+}
+
+
+
+nav {
+    background-color: blue;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+nav ul {
+    text-align: right;
+    padding-right: 20px;
+}
+
+nav li {
+    text-decoration: none;
+    display: inline-flex;
+    padding: 20px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav li:hover {
+    background-color: #c44011;
+}
+
+.main-text {
+    position: absolute;
+    width: 1140px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-size: 2.7em;
+    padding-bottom: 15px;
+}
+
+p {
+    font-size: 1.7em;
+    color: blue;
+}
+
+
+/* -------------------------------------------*/
+/* CONTAINER */
+/* -------------------------------------------*/
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    background: transparent;
+    overflow: auto;
+} 
+
+.gallery {
+    margin: 5px;
+    padding-bottom: 20px;
+    border: 1px solid transparent;
+    float: left;
+    width: 390px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.doc {
+    
+}
+
+.desc {
+    margin-top: -5px;
+    padding: 15px;
+    text-align: center;
+    background-color: #36353b;
+    font-weight: bold;
+    color: #fff;
+}
+
+.work_text {
+    color: #e3e3e3;
+    font-size: 2.1em;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+
+
+/* ----- BUTTON -----*/
+
+
+.button {
+    padding: 10px;
+    background: #36353b;
+    font-size: 1em;
+    color: #fff;
+    position: sticky;
+    left: 50%;
+    border: transparent;
+    font-weight: 600;
+    margin-top: 30px;
+    transition: 0.7s;
+}
+
+.button:hover {
+    background-color: orangered;
+}
+
+.gallery a {
+    text-decoration: none;
+}
+
+/* -------------------------------------------*/
+/* CONTACTS */
+/* -------------------------------------------*/
+
+.contacts {
+    background-color: #36353b;
+    margin-top: 80px;
+}
+
+.contacts h1 {
+    color: #fff;
+    font-size: 3em;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+.contacts p {
+    text-align: center;
+    color: #fff;
+    font-style: italic;
+    font-size: 1em;
+    font-family: sans-serif;
+    padding-bottom: 50px;
+}
+
+.social ul{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    padding-bottom: 90px;
+    margin-bottom: 5px;
+}
+
+.social li i{
+    padding: 20px;
+    word-spacing: 5px;
+}
+
+.social li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* -------------------------------------------*/
+/* FOOTER */
+/* -------------------------------------------*/
+
+footer {
+    background: #36353b;
+    color: #fff;
+    padding: 30px 0px;
+    text-align: left;
+    font-size: 1em; 
+    font-weight: bold;
+}
+
+
